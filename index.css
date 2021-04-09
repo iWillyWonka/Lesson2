@@ -5,6 +5,11 @@ html {
 
 .mainlogo {
     display: grid;
-    grid-template-columns: 30px 400px;
+    grid-template-columns: 1fr 9fr;
+    justify-items: stretch;
 }
 
+.mainlogo img {
+    width: 69px;
+    height: 61px;
+}

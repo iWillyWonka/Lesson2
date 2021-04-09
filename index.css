@@ -1,0 +1,10 @@
+html {
+    margin: auto;
+    max-width: 980px;
+}
+
+.mainlogo {
+    display: grid;
+    grid-template-columns: 30px 400px;
+}
+

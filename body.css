@@ -1,0 +1,11 @@
+.big-logo {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.pick {
+    background-image: url(img/bigphoto.png) ;
+    max-width: 980px;
+    height: 536px;
+    background-size: auto 100%;
+}

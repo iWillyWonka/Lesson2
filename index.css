@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
     
 }
@@ -28,6 +28,7 @@ h2 {
     grid-template-columns: max-content;
     grid-template-rows: 1fr 1fr;
     padding: 0 30px;
+    
 
 }
 

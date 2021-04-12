@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@541&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@370&display=swap');
 
 .big-logo {
     display: grid;
@@ -97,7 +100,8 @@
 
 .logo-text1 {
     font-size: 36px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 541;
 }
 
 .small-logo1 {
@@ -114,12 +118,37 @@
 }
 
 .small-logo2 {
+    display: flex;
     background-image: url(img/background-fon.webp);
     height: 185px;
     width: 531px;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.logo-border {
+.small-logo2  img {
+    margin-bottom: 40px;
+
+}
+
+.text-for-2logo {
+    font-size: 22px;
     text-align: center;
-    vertical-align: middle;
+    margin-right: 10px;
+    border-color: white;
+    border-style: solid;
+}
+
+.font-logo2 {
+    font-size: 33px;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto Slab', bold;
+    font-weight: 700;
+}
+
+.bold-font-logo2 {
+    font-family: 'Roboto Slab', bold;
+    margin-bottom: 0px;
+    font-weight: 370;
 }

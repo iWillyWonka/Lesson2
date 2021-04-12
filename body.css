@@ -151,4 +151,15 @@
     font-family: 'Roboto Slab', bold;
     margin-bottom: 0px;
     font-weight: 370;
+    padding-right: 15px;
+    line-height: 1.25em;
+}
+
+.deliver-info {
+    text-align: center;
+    margin-top: 5px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    font-size: 22px;
 }

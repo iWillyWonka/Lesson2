@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@370&display=swap');
 
+:root {
+    --main-color: #f0ae00;
+    --main-dark-color: #000000;
+    --main-light-color: #FFFFFF;
+
+}
 
 html {
     margin: auto;

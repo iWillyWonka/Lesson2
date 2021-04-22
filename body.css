@@ -334,3 +334,24 @@ h2 {
     height: 32px;
     width: 32px;
 }
+
+.digital-cameras {
+    max-width: 980px;
+
+}
+
+.digital-cameras img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.digital-cameras form {
+    text-align: center;
+
+}
+
+.camera-Test1 button{
+    position: relative;
+}

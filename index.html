@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Магазин Фотокамер</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="body.css">
         <link rel="icon" href="img/professional-photographer.png">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
     <body>
         <header class="header">
@@ -62,7 +63,6 @@
             </div>
             <div class="logotype-photo">
                 <div class="small-logo1">
-                    <!-- <img src="img/small-logoo.webp" alt="На фото изображен объектив " width="450p" height="250p"> -->
                     <div class="logo-text">
                         <div class="logo-text1">
                             <p>2 ГОДА ГАРАНТИИ</p>
@@ -85,15 +85,16 @@
                 <p>Бесплатная доставка по России  &#47; Кратчайшие сроки</p>
             </div>
 
-            <div id="digital-cameras">
-                <p>Цифровые камеры</p>
+            <div class="digital-cameras">
                 <div id="camera1">
-                    <a href="Camera/cameralink/camera1.html">
-                        <img src="img/cameraphoto/nikon_d6.png" alt="Профисиональная фотокамера Никон Д6">
-                    </a>
-                    <form action="Camera/cameralink/camera1.html" target="_self">
-                        <button>Быстрый просмотр</button>
-                    </form>
+                    <div class="camera-Test1">
+                        <a href="Camera/cameralink/camera1.html">
+                            <img src="img/cameraphoto/nikon_d6.png" alt="Профисиональная фотокамера Никон Д6">
+                        </a>
+                        <form action="Camera/cameralink/camera1.html" target="_self">
+                            <button>Быстрый просмотр</button>
+                        </form>
+                    </div> 
                     <p>
                         <a href="Camera/cameralink/camera1.html">Nikon D6</a>
                     </p>
@@ -143,7 +144,22 @@
                         <a href="Camera/cameralink/camera4.html">$1000.00 USD</a>
                     </p>
                 </div>
+                <div id="camera4">
+                    <a href="Camera/cameralink/camera4.html">
+                        <img src="img/cameraphoto/nikon_d850.png" alt="Профисиональная фотокамера Никон Д850">
+                    </a>
+                    <form action="Camera/cameralink/camera4.html" target="_self">
+                        <button>Быстрый просмотр</button>
+                    </form>
+                    <p>
+                        <a href="Camera/cameralink/camera4.html">Nikon D850</a>
+                    </p>
+                    <p>
+                        <a href="Camera/cameralink/camera4.html">$1000.00 USD</a>
+                    </p>
+                </div>
             </div>
+            <!--
             <div id=LensesAcc>
                 <h4>Линзы и аксессуары</h4>
                 <div id="lenses1">
@@ -244,6 +260,10 @@
                     <div>
                         <img src="img/twitter.png" alt="Логотип Twitter">
                     </div>
-        </footer>
+        </footer>-->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>  
+        <script src="tSlick.js"></script>
     </body>
 </html>

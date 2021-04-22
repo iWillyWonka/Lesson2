@@ -9,6 +9,18 @@ html {
     max-width: 980px;
 }
 
+div {
+    outline-color: transparent;
+}
+
+img {
+    outline-color: transparent;
+}
+
+a {
+    outline-color: transparent;
+}
+
 h1 {
     font-size: 37px;
     margin: 0;
@@ -108,7 +120,7 @@ h2 {
     max-width: 100%;
     background-repeat: no-repeat;
     height: 536px;
-    background-size: auto 100%;
+    background-size: 100%;
     margin-top: 40px;
 }
 
@@ -256,7 +268,12 @@ h2 {
     vertical-align: middle;
     background-color: black;
     color: white;
-    font-size: 22px;
+    font-size: 21px;
+    font-family: 'Roboto Slab', bold;
+}
+
+.deliver-info p {
+    padding: 7px;
 }
 
 .footer-bloc {
@@ -337,21 +354,99 @@ h2 {
 
 .digital-cameras {
     max-width: 980px;
-
 }
 
 .digital-cameras img {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .digital-cameras form {
     text-align: center;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.camera-Test1 button{
+.digital-cameras form p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.slick-slide button {
+    background: var(--main-color);
+    color: black;
+    border: none;
     position: relative;
+    height: 60px;
+    font-size: 0.9em;
+    padding: 0 1em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    width: 200px;
+    font-family: 'Roboto Slab', bold;
+    ; }
+
+.slick-slide button:hover {
+    background: #fff;
+    color: var(--main-color);
+}
+
+.slick-slide button:before,.slick-slide button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: var(--main-color);
+    transition: 400ms ease all;
+}
+
+.slick-slide button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.slick-slide button:hover:before,.slick-slide button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.button-buy {
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9em ;
+    font-family: 'Roboto Slab', bold;
+}
+
+.button-buy button {
+    height: 30px;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    width: auto;
+    border-radius: 5px;
+    color: var(--main-light-color);
+    background: var(--main-color);
+}
+
+.button-buy button:hover {
+    background: var(--main-dark-color);
+    color: var(--main-color);
+}
+
+.photo-shop-title {
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Roboto Slab', bold;
+    letter-spacing: 0.1em;
 }
